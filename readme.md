@@ -1,0 +1,3 @@
+- React Hook Form
+- React Navigation
+- Google API sign in
