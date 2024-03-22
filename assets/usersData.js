@@ -241,9 +241,6 @@ export const users = [
   },
 ];
 
-
-
-
 export const jobs = [
   { id: 1, title: "Rector", assignedUsers: [] },
   { id: 2, title: "Admonitor", assignedUsers: [] },
@@ -304,4 +301,105 @@ export const jobs = [
   },
   { id: 46, title: "Villa Rex (inside and outside)", assignedUsers: [] },
   { id: 47, title: "Villa Shopper", assignedUsers: [] },
+];
+
+export const initialSchedule = [
+  { date: "Monday, March 11", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Tuesday, March 12", time: "5:30 p.m.", presider: "", lector: "" },
+  { date: "Wednesday, March 13", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Thursday, March 14", time: "5:30 p.m.", presider: "", lector: "" },
+  { date: "Friday, March 15", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Saturday, March 16", time: "9:15 a.m.", presider: "", lector: "" },
+  { date: "Sunday, March 17", time: "10:30 a.m.", presider: "", lector: "" },
+  { date: "Monday, March 18", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Tuesday, March 19", time: "5:30 p.m.", presider: "", lector: "" },
+  { date: "Wednesday, March 20", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Thursday, March 21", time: "5:30 p.m.", presider: "", lector: "" },
+  { date: "Friday, March 22", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Saturday, March 23", time: "9:15 a.m.", presider: "", lector: "" },
+  { date: "Sunday, March 24", time: "10:30 a.m.", presider: "", lector: "" },
+  { date: "Monday, March 25", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Tuesday, March 26", time: "5:30 p.m.", presider: "", lector: "" },
+  { date: "Wednesday, March 27", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Thursday, March 28", time: "5:30 p.m.", presider: "", lector: "" },
+  { date: "Friday, March 29", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Saturday, March 30", time: "9:15 a.m.", presider: "", lector: "" },
+  { date: "Sunday, March 31", time: "10:30 a.m.", presider: "", lector: "" },
+  { date: "Monday, April 1", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Tuesday, April 2", time: "5:30 p.m.", presider: "", lector: "" },
+  { date: "Wednesday, April 3", time: "12:05 p.m.", presider: "", lector: "" },
+  { date: "Thursday, April 4", time: "5:30 p.m.", presider: "", lector: "" },
+];
+
+export const sundaySchedule = [
+  {
+    date: "Sunday, March 24",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, March 31",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, April 07",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, April 14",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, April 21",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, April 28",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, May 05",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, May 12",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, May 19",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
+  {
+    date: "Sunday, May 26",
+    time: "10:00 AM",
+    shcMorning: "",
+    shcEvening: "",
+    leaveyNight: "",
+  },
 ];

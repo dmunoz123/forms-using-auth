@@ -32,6 +32,7 @@
       "eas": {
         "projectId": "c9a5ce2b-bac5-4e6d-ac88-91653ad13744"
       }
-    }
+    },
+    "scheme": "myapp"
   }
 }

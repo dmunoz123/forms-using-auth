@@ -6,6 +6,8 @@ import { MeetingMinutes } from "../Forms/MeetingMinutes";
 import { UserProfile } from "../Components/UserProfile";
 import { UserList } from "../Components/UserList";
 import { RoleList } from "../Forms/CommunityRole";
+import { JesuitScheduleForm } from "../Forms/JesuitPresiders";
+import { SundayScheduleForm } from "../Forms/SundayPresider";
 
 import * as React from "react";
 import { Button } from "react-native";
@@ -92,6 +94,18 @@ export const MyStack = () => {
         <Stack.Screen
           name="RoleList"
           component={RoleList}
+          options={{ title: "" }}
+        />
+
+        <Stack.Screen
+          name="JesuitScheduleForm"
+          component={JesuitScheduleForm}
+          options={{ title: "" }}
+        />
+
+        <Stack.Screen
+          name="SundayScheduleForm"
+          component={SundayScheduleForm}
           options={{ title: "" }}
         />
       </Stack.Navigator>

@@ -51,13 +51,13 @@ export const FormScreen = ({ navigation }) => {
             <View style={styles.buttonContainer}>
               <Button
                 title="Sunday Presiders"
-                onPress={() => navigation.navigate("AnotherFormScreenName")}
+                onPress={() => navigation.navigate("SundayScheduleForm")}
               />
             </View>
             <View style={styles.buttonContainer}>
               <Button
                 title="Jesuit Presiders"
-                onPress={() => navigation.navigate("AnotherFormScreenName")}
+                onPress={() => navigation.navigate("JesuitScheduleForm")}
               />
             </View>
           </ScrollView>
@@ -161,7 +161,6 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
 });
-
 
 const jobs = [
   { id: 1, title: "Rector", assignedUsers: [] },
